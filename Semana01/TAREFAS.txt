@@ -4,3 +4,13 @@ TESTAR COM
 
 javac -version
 java -version
+
+História do JAVA
+https://www.youtube.com/watch?v=sTX0UEplF54
+https://www.youtube.com/watch?v=v_ZCtgwbS3o
+
+Configuração do JDK
+https://www.youtube.com/watch?v=qo6KKuc5gho
+
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
