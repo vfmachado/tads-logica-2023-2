@@ -1,0 +1,6 @@
+INSTALAR O JDK E GARANTIR JAVA E JAVAC ESTEJAM NO PATH DO S.O. VOCÊS
+
+TESTAR COM
+
+javac -version
+java -version

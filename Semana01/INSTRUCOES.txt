@@ -1,0 +1,41 @@
+ALGORITMO
+    - conjunto das instruções que realizam uma tarefa
+
+INSTRUÇÃO
+    - um comando que visa um objetivo para uma ação simples
+
+CODIGO FONTE
+    - é um algoritmo escrito em uma linguagem de programação
+
+LINGUAGEM PROGRAMAÇÃO
+    - conjunto estabelecido de instruções conhecidas que serão utilizadas para definir um programa.
+
+PROGRAMA DE COMPUTADOR
+    - conjunto de instruções (algoritmo) escrito em linguagem de máquina, que são executados pelo processador
+
+COMPILADOR
+    - responsável por entender o código fonte (humano) e escrever um código de máquina
+
+JDK
+    v17
+    JAVA DEVELOPMENT KIT - KIT DE DESENVOLVIMENTO JAVA
+    Dentro do JDK tem o javac 
+        java comiler
+        compilador java
+    código fonte => .class
+      pacote     => .jar
+    
+
+JRE - JAVA RUNTIME ENVIROMENT 
+    - ambiente de execução do java
+    - é o que roda o executável java
+
+
+IDE
+    - INTEGRATED DEVELOPMENT ENVIROMENT
+    - ambiente de desenvolvimento integrado
+    - escolha a da sua preferencia, nao vai mudar nada... mesmo
+
+TERMINAL / CMD
+    - é o programa que vamos utilizar para compilar e executar nossos códigos.
+
