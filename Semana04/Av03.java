@@ -30,10 +30,10 @@ public class Av03 {
             if (quantN3 > 0)
                 System.out.println(quantN3 + " de notas de " + n3);
             
-            if (quantN2)
+            if (quantN2 > 0)
                 System.out.println(quantN2 + " de notas de " + n2);
             
-            if (quantN1)
+            if (quantN1 > 0)
                 System.out.println(quantN1 + " de notas de " + n1);
         } else {
             System.out.println("VC QUE DISSE QUAIS SAO AS NOTAS E ESCOLHEU UM SQUE IMPOSSIVEL");
