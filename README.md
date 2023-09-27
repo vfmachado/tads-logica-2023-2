@@ -1,5 +1,8 @@
 # TADS IFRS - Rio Grande 2023/2 - 1º Semestre
 
+# Gravações
+https://drive.google.com/drive/folders/1X5hEXMeL_cxkHY262w43ilp1pFTKPrZO?usp=sharing
+
 # CRONOGRAMA
 
 ## Semana 01
