@@ -6,7 +6,7 @@ import java.awt.Graphics2D;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class Figuras01 extends JPanel {
+public class Figuras10 extends JPanel {
     
     @Override
     protected void paintComponent(Graphics g2) {
@@ -18,15 +18,13 @@ public class Figuras01 extends JPanel {
         g.setColor(Color.BLACK);
         
         //TODO - ESCREVA SEU CÓDIGO AQUI!!!
-        g.drawLine(0, 0, 200, 200);
+        for (int v = 0; v <= 400; v = v + 20) {
+           g.drawLine(200 - v/2, v, v, 400);
+        }
 
-        g.setColor(Color.RED);
-        g.drawLine(0, 400, 200, 200);
-
-        g.setColor(Color.GREEN);
         
-        for (int i = 0; i <= 400; i = i + 20)
-            g.drawLine(0, 0, 400, i);
+        // g.drawLine(200, 0, 0, 400);
+        // g.drawLine(190, 10, 10, 400);
     }
 
 
@@ -36,7 +34,7 @@ public class Figuras01 extends JPanel {
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         janela.setSize(410, 440);
 
-        Figuras01 painel = new Figuras01();
+        Figuras10 painel = new Figuras10();
         painel.setBounds(0, 0, 400, 400);
         
         janela.add(painel);

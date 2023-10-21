@@ -6,27 +6,23 @@ import java.awt.Graphics2D;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class Figuras01 extends JPanel {
+public class Figuras09 extends JPanel {
     
     @Override
     protected void paintComponent(Graphics g2) {
         super.paintComponent(g2);
     
         Graphics2D g = (Graphics2D) g2;
-        g.setStroke(new BasicStroke(4));
+        g.setStroke(new BasicStroke(2));
         
         g.setColor(Color.BLACK);
         
         //TODO - ESCREVA SEU CÓDIGO AQUI!!!
-        g.drawLine(0, 0, 200, 200);
+        for (int v = 0; v <= 400; v = v + 20) {
+            g.drawLine(v, v, 400 - v, 0);
+        }
 
-        g.setColor(Color.RED);
-        g.drawLine(0, 400, 200, 200);
 
-        g.setColor(Color.GREEN);
-        
-        for (int i = 0; i <= 400; i = i + 20)
-            g.drawLine(0, 0, 400, i);
     }
 
 
@@ -36,7 +32,7 @@ public class Figuras01 extends JPanel {
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         janela.setSize(410, 440);
 
-        Figuras01 painel = new Figuras01();
+        Figuras09 painel = new Figuras09();
         painel.setBounds(0, 0, 400, 400);
         
         janela.add(painel);

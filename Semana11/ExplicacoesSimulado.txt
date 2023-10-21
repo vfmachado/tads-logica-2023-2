@@ -1,0 +1,65 @@
+Observações:
+
+- Sempre que aparecer a palavra SEQUENCIA, envolve um laço de repetição
+
+Ex 01.
+    - O usuario decide quantos valores serão utilizados.
+
+    - Sequencia de impares (do tamanho que o usuário escolheu)
+    - Sinal intercalado
+    - Somatório
+
+    - Multiplica por 4
+
+
+Ex 02.
+    18  | 2         32 / 2 2 2 2 2 
+     9  | 3
+     3  | 3
+     1  |
+
+    - Dado um valor N do usuario, decompor em fatores primos
+
+    * NAO PRECISAM CALCULAR NUMEROS PRIMOS NESSE EXERCICIO
+    * SE FOR DIVISIVEL
+        - USAR O RESTO
+        - MANTENHO O DIVISOR
+
+Ex 03. (FACIL)
+    Novos valores, nao sei quantos, repetição indeterminada... 
+        - condição do while faz sentido
+        - break
+
+
+Ex 04.
+    valorInicial, valorFinal, deQuantoEmQuanto++  divisor
+    - Somatório quando divisível 
+
+Ex 05. 
+    POP A < POP B
+    CRESC A > CRESC B
+
+    Eu sei quantos anos vai levar? --- iterar sobre os anos... 
+    10000 , cresc 10%
+        ano 1 =  11000
+        ano 2 =  12100
+        ...
+
+Ex 06.
+    PARECIDO COM O QUE FIZEMOS NO INICIO DO ANO... 
+    MAS DEVE SER UTILIZADO REPETICAO
+        - primeiro resolve com 4 digitos
+        - depois com qualquer quantidade
+
+Ex 07. 
+    Verificar se o valor atual é menor que o anterior
+
+Ex 08.
+    - Resolver 1 partida
+    - Depois adicionar a repetição
+    - Simula um dado ( util.Random )
+    - Mostrar o valor sorteado, media e vencedor
+    
+
+Ex 09 / Ex 10
+    - a coordenada (0, 0) está no canto superior esquerdo
