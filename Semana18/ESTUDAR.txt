@@ -1,0 +1,36 @@
+
+String [] times = {
+    "GREMIO",
+    "INTER",
+    "JUVENTUDE",
+    "CAXIAS"
+}
+
+int [] pontos = {
+    0,
+    0,
+    0,
+    0,
+}
+
+String [][] partidas = {
+    { GREMIO, INTER },
+    { GREMIO, JUVENTUDE },
+    { GREMIO, CAXIAS },
+    
+    { INTER, GREMIO },
+    { INTER, JUVENTUDE },
+    { INTER, CAXIAS },
+
+    ...    
+}
+
+int [] resultado = {
+    1,
+    2,
+    0,
+    1,
+    0, 
+    1,
+    ...
+}
